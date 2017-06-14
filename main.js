@@ -14,7 +14,6 @@ var blog2 = makeBlogPost("My Second Blog Post", "Lorem ipsum dolor sit amet, con
 var blogPosts = [blog2, blog1];
 
 for (i = 0; i < blogPosts.length; i++) {
-	console.log(blogPosts);
 	document.getElementById("blog-posts").innerHTML +=
 	`<h3>${blogPosts[i].title}</h3>
 	 <p class="date">${blogPosts[i].date}</p>
